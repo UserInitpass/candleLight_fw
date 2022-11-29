@@ -47,7 +47,7 @@ THE SOFTWARE.
 #define USBD_LANGID_STRING			 1033
 #define USBD_CONFIGURATION_STRING_FS (uint8_t*) GIT_HASH
 #define USBD_INTERFACE_STRING_FS	 (uint8_t*) "gs_usb interface"
-
+#define BOARD_candleLight 
 #if defined(BOARD_candleLight)
 	#define USBD_PRODUCT_STRING_FS	 (uint8_t*) "candleLight USB to CAN adapter"
 	#define USBD_MANUFACTURER_STRING (uint8_t*) "bytewerk"

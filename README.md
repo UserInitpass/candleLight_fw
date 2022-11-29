@@ -1,18 +1,9 @@
 # candleLight_gsusb
-[![Build](https://github.com/candle-usb/candleLight_fw/actions/workflows/ci.yml/badge.svg)](https://github.com/candle-usb/candleLight_fw/actions)
+ 
 
 This is firmware for certain STM32F042x/STM32F072xB-based USB-CAN adapters, notably:
 - candleLight: https://github.com/HubertD/candleLight (STM32F072xB)
-- candleLight: https://www.linux-automation.com/en/products/candlelight.html (STM32F072xB)
-- cantact: http://linklayer.github.io/cantact/ (STM32F042C6)
-- canable (cantact clone): http://canable.io/ (STM32F042C6)
-- USB2CAN: https://github.com/roboterclubaachen/usb2can (STM32F042x6)
-- CANAlyze: https://kkuchera.github.io/canalyze/ (STM32F042C6)
-- VulCAN Gen1: https://shop.copperforge.cc/products/ac41 (STM32F042x6)
-- Entreé: https://github.com/tuna-f1sh/entree (STM32F042x6)
-- CANable-MKS: https://github.com/makerbase-mks/CANable-MKS (STM32F072xB)
-- ConvertDevice-xCAN01: https://github.com/ConvertDevice/xCAN01 (STM32F072xB)
-
+ 
 Of important note is that the common STM32F103 will NOT work with this firmware because its hardware cannot use both USB and CAN simultaneously.
 Beware also the smaller packages in the F042 series which map a USB and CAN_TX signal on the same pin and are therefore unusable !
 
